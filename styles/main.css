@@ -4,18 +4,21 @@ body{margin: 0;padding: 0;}
 .content{margin:1% 1%;}
 
 .fixed-top{position: fixed;white-space: nowrap;color:#FFF;z-index: 6666;}
-.week-day{display: inline-block;font-weight:bold;font-size:25px;text-align: center;width:35%;background-color: #3A93FF;}
+.week-day{display: inline-block;font-weight:bold;font-size:25px;text-align: center;width:35%;background-color: #3A93FF;border-radius:5px;}
 .border-right{border-right:1px solid #FFF;}
 .is-today{background-color: #FFF;color:#3A93FF;}
 .day-date{font-size: 15px}
 
-.content-items{position: absolute;width: 101.5%;top:20px;}
-.day-in-week{position: relative;display: inline-block;width: 12.5%;margin-top: 50px;padding-left:1.25%;background-color:#FFF;border-right: 1px solid #3A93FF;}
+.content-items{position: absolute;width: 101.5%;top:12px;}
+.day-in-week{float:left;position: relative;display: inline-block;width: 12.5%;margin-top: 50px;margin-bottom: 18px;padding-left:1.185%;/*background-color:#FFF;*/border-right: 1px solid #3A93FF;border-left: 1px solid #3A93FF;border-radius:5px;}
 .day-content{margin-top: 10px;}
+.is-today-content{background-color: #FFF;}
 .item-name-div{text-align: center;margin-bottom: 6px;}
 .item-name{text-decoration: none;font-weight:bold; }
 a:visited{color:#3A93FF;}
-.item-image{width:160px;height:180px;}
+.item-image{width:160px;height:180px;border-radius:10px;}
+
+
 
 
 

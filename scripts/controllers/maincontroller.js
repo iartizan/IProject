@@ -50,6 +50,7 @@ iProject.controller('mainController',['$scope','$timeout','$filter',
                 if(item.weekDay == id){
                     weekDayContents[id].push(item);
                 }
+
             });
             return weekDayContents[id];
         }
@@ -73,6 +74,7 @@ iProject.controller('mainController',['$scope','$timeout','$filter',
             {weekDay:3,name:'Mr.Robot',url:'https://www.baidu.com',imageUrl:'images/part.png'},
             {weekDay:3,name:'Mr.Robot',url:'https://www.baidu.com',imageUrl:'images/part.png'},
             {weekDay:3,name:'Mr.Robot',url:'https://www.baidu.com',imageUrl:'images/part.png'},
+            // {weekDay:3,name:'...',url:'https://www.baidu.com',imageUrl:'images/bluePart.png'},
             {weekDay:0,name:'暴君 S04',url:'https://www.baidu.com',imageUrl:'images/part.png'},
             {weekDay:0,name:'Tyrant',url:'https://www.baidu.com',imageUrl:'images/part.png'},
             {weekDay:0,name:'Tyrant',url:'https://www.baidu.com',imageUrl:'images/part.png'},
@@ -81,7 +83,8 @@ iProject.controller('mainController',['$scope','$timeout','$filter',
             {weekDay:5,name:'Tyrant',url:'https://www.baidu.com',imageUrl:'images/part.png'},
             {weekDay:4,name:'Tyrant',url:'https://www.baidu.com',imageUrl:'images/part.png'},
             {weekDay:4,name:'Tyrant',url:'https://www.baidu.com',imageUrl:'images/part.png'},
-            {weekDay:4,name:'Tyrant',url:'https://www.baidu.com',imageUrl:'images/part.png'}
+            // {weekDay:4,name:'...',url:'https://www.baidu.com',imageUrl:'images/bluePart.png'},
+            // {weekDay:4,name:'...',url:'https://www.baidu.com',imageUrl:'images/bluePart.png'}
         ];
 
         $scope.week=[
