@@ -1,6 +1,34 @@
 body{margin: 0;padding: 0;}
-.text{font-size: 30px;font-weight: bold; color:#3A93FF}
+
 .main{position:fixed;height:100%;width:100%;overflow-y: auto;background: url("../images/blue.jpg") repeat fixed center;overflow-x:hidden; }
+.fixed-top{position: fixed;white-space: nowrap;background-color: #3A93FF;color:#FFF;z-index: 6666;width:97%;}
+/*new content*/
+.main-content{position: absolute;}
+.week-day{display: inline-block;font-weight:bold;font-size:25px;text-align: center;width:14%;}
+.day-date{font-size: 15px}
+.content-item{list-style-type: none;padding: 30px 0 0}
+.day-content-list{padding: 0}
+.item-name{text-decoration: none;font-weight:bold; }
+a:visited{color:#3A93FF;}
+.item-image{width:155px;height:180px;}
+.border-right{border-right:1px solid #FFF;}
+.is-today{background-color: #FFF;color:#3A93FF;}
+
+.content-items{position: absolute;width: 100%;top:20px;}
+
+.day-in-week{position: relative;display: inline-block;width: 12.5%;margin-top: 50px;padding-left:1.25%;background-color:#FFF;border-right: 1px solid #3A93FF;}
+.day-content{margin-top: 10px;}
+.item-name-div{text-align: center;margin-bottom: 6px;}
+
+
+
+
+
+
+
+
+.text{font-size: 30px;font-weight: bold; color:#3A93FF}
+
 /*.main{position:fixed;height:100%;width:100%;background-color:#FFFFFF; }*/
 .content{margin:1% 1%;}
 .content-main{margin-top: 2%;width: 2%;}
@@ -29,21 +57,3 @@ p{font-size: 60px;}
 }
 
 
-.fixed-top{position: fixed;white-space: nowrap;background-color: #3A93FF;color:#FFF;z-index: 6666;width:98%;}
-/*new content*/
-.main-content{position: absolute;}
-.week-day{display: inline-block;font-weight:bold;font-size:25px;text-align: center;width:14%;}
-.day-date{font-size: 15px}
-.content-item{list-style-type: none;padding: 30px 0 0}
-.day-content-list{padding: 0}
-.item-name{text-decoration: none;font-weight:bold; }
-a:visited{color:#3A93FF;}
-.item-image{width:145px;height:180px;}
-.border-right{border-right:1px solid #FFF;}
-.is-today{background-color: #FFF;color:#3A93FF;}
-
-.content-items{position: absolute;width: 100%;top:20px;}
-
-.day-in-week{position: relative;display: inline-block;width: 12.5%;margin-top: 50px;padding-left:1.5%;background-color:#FFF;}
-.day-content{margin-top: 10px;}
-.item-name-div{text-align: center;margin-bottom: 6px;}

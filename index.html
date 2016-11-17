@@ -35,7 +35,7 @@
             <div class="day-in-week" ng-repeat="day in week">
                 <div class="day-content" ng-repeat="content in day.contents">
                     <div class="item-name-div">
-                        <a class="item-name" target="_blank" ng-href="{{content.url}}">{{content.name}}</a>
+                    <a class="item-name" target="_blank" ng-href="{{content.url}}">{{content.weekDay}}{{content.name}}</a>
                     </div>
                     <div>
                         <a target="_blank" ng-href="{{content.url}}">
